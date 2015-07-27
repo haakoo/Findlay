@@ -20,4 +20,4 @@ projectFilesBackup
 
 .DS_Store
 *.zip
-createZip.sh
+*.sh
