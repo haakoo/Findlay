@@ -1,8 +1,6 @@
-# Casper
+# Findlay
 
-The default theme for [Ghost](http://github.com/tryghost/ghost/).
-
-To download, visit the [releases](https://github.com/TryGhost/Casper/releases) page.
+A theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](http://github.com/tryghost/casper/) by Håkon K. Olafsen.
 
 ## Copyright & License
 
