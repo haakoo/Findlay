@@ -1,6 +1,6 @@
 # Findlay
 
-A theme for [Ghost](http://github.com/tryghost/ghost/).
+A theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](http://github.com/tryghost/casper/) by Håkon K. Olafsen.
 
 ## Copyright & License
 
