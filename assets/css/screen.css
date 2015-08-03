@@ -767,8 +767,6 @@ body.nav-opened .nav {
 .blog-logo {
     display: block;
     float: left;
-    background: none !important; /* Makes sure there is never a background */
-    border: none !important; /* Makes sure there is never a border */
 }
 
 .blog-logo img {
@@ -779,6 +777,43 @@ body.nav-opened .nav {
     height: 38px;
     padding: 1px 0 5px 0;
     width: auto;
+    background: none !important; /* Makes sure there is never a background */
+    border: none !important; /* Makes sure there is never a border */
+}
+
+.text-logo {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 38px;
+    padding: 0 15px;
+    border-style: solid;
+    border-width: 1px;
+    opacity: 1;
+    text-align: center;
+    font-size: 12px;
+    text-transform: uppercase;
+    line-height: 35px;
+    white-space: nowrap;
+    border-radius: 3px;
+    transition: all 0.5s ease;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.6);
+
+}
+
+.text-logo:hover {
+    color: #222;
+    background: #fff;
+}
+
+.no-cover .text-logo {
+    color: #9EABB3;
+    border-color: #BFC8CD;
+}
+
+.no-cover .text-logo:hover {
+    color: #555;
 }
 
 .menu-button {
@@ -1770,6 +1805,22 @@ body:not(.post-template) .post-title {
 
     .blog-logo img {
         height: 30px;
+    }
+    
+    .text-logo {
+        padding: 0 5px;
+        border-radius: 0;
+        border-width: 0;
+        background: transparent;
+    }
+    .text-logo:hover {
+        color: #2e2e2e;
+        border-color: transparent;
+        background: none;
+    }
+    
+    .main-nav.overlay .text-logo {
+        border-color: transparent;
     }
 
     .menu-button {
