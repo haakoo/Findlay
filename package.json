@@ -1,5 +1,16 @@
 {
-  "name": "Findlay",
-  "version": "0.5",
-  "author": "Håkon K. Olafsen"
+  "name": "findlay",
+  "version": "0.9.0",
+  "engines": {
+    "ghost": ">=1.0.0"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "your name",
+    "email": "your email",
+    "url": "your site"
+  },
+  "config": {
+    "posts_per_page": 7
+  }
 }
