@@ -6,7 +6,7 @@ A theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](http://
 
 There is a small shell script to help with creating the zip-file you'll need when uploading the theme to Ghost.
 
-1. Make a 'package-example.json' called 'package-information.json'
+1. Make a copy of 'package-example.json' called 'package-information.json'
 2. Edit the author name, email and url in 'package-information.json'
 3. Run './createZip.sh'
 
