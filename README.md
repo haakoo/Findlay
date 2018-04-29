@@ -2,6 +2,14 @@
 
 A theme for [Ghost](http://github.com/tryghost/ghost/) based on [Casper](http://github.com/tryghost/casper/) by Håkon K. Olafsen.
 
+## Easily create Zip-file
+
+There is a small shell script to help with creating the zip-file you'll need when uploading the theme to Ghost.
+
+1. Make a 'package-example.json' called 'package-information.json'
+2. Edit the author name, email and url in 'package-information.json'
+3. Run './createZip.sh'
+
 ## Copyright & License
 
 Copyright (c) 2013-2015 Ghost Foundation - Released under the MIT License.

@@ -22,3 +22,5 @@ projectFilesBackup
 *.zip
 *.sh
 package-information.json
+
+!createZip.sh
